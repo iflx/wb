@@ -17,7 +17,7 @@
 	src: url(../fonts/Hiragino%20Sans%20GB%20W6.otf);
 	}
 *{margin:0 0;
-	font-family: "dqw3", "微软雅黑";
+	font-family: "dqw3","微软雅黑";
 	}
 
 
@@ -87,6 +87,7 @@
 	height: 19px;
 	font-size: 18px;
 	line-height: 19px;
+	overflow: hidden;
 }
 	.iicon3{
 	margin: 46px auto 0;
@@ -273,3 +274,9 @@
 	animation-iteration-count:infinite;
 	animation-timing-function:ease;
 }
+#gundong{
+	
+	width:300px;
+	margin:0 auto;
+	height:19px;
+	text-align:center;}
