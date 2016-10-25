@@ -23,10 +23,9 @@
 
 .grid figure figcaption {
 	color: #fff;
-	font-size:16px;
-	font-family:"冬青黑体简体中文 W3";
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+	font-size:15px;
+	font-family:"dqw3";
+	
 }
 /*----------------------------------------主标题文本*/
 .grid figure figcaption::before,
@@ -55,8 +54,8 @@
 }/*？*/
 
 .grid figure p {
-	font-family:"冬青黑体简体中文 W3";
-	font-size: 16px;
+	font-family:"dqw3";
+	font-size: 15px;
 }
 
 /* Individual effects */
@@ -105,12 +104,12 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	font-family:"冬青黑体简体中文 W3";
-	padding-top: 25%;/*h2上边距*/
+	font-family:"dqw3";
+	padding-top: 20%;/*h2上边距*/
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-20px,0);
-	transform: translate3d(0,-20px,0);
+	-webkit-transform: translate3d(0,-10px,0);
+	transform: translate3d(0,-10px,0);
 }
 
 figure.effect-bubba p {
@@ -118,8 +117,8 @@ figure.effect-bubba p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,20px,0);
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
 }
 
 figure.effect-bubba:hover figcaption::before,

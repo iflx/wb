@@ -1,13 +1,13 @@
 function $G(Read_Id) { return document.getElementById(Read_Id) }
 
-function Effect(ObjectId,parentId){
+function Effect(ObjectId,parentId,id){
   if ($G(ObjectId).style.display == 'none'||$G(ObjectId).style.display == ''){
-	  document.getElementById("more0").style.transform="rotate(180deg)";
+	  document.getElementById(id).style.transform="rotate(180deg)";
   Start(ObjectId,'Opens');
   $G(parentId).innerHTML = "<a href=# onClick=javascript:Effect('"+ObjectId+"','"+parentId+"');>'关闭'</a>"
   
   }else{ 
-      document.getElementById("more0").style.transform="rotate(0deg)";
+      document.getElementById(id).style.transform="rotate(0deg)";
   Start(ObjectId,'Close');
 
   $G(parentId).innerHTML = "<a href=# onClick=javascript:Effect('"+ObjectId+"','"+parentId+"');>'打开'</a>"

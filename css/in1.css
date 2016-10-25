@@ -198,11 +198,11 @@
 	float:left;
 	}
 .pt1{
-	text-align:left;
-	display:block;
-	padding:20px 0 15px 190px;
-	font-size:18px;
-	font-family:"dqw6"
+	display: block;
+	padding: 20px 0 15px 190px;
+	font-size: 18px;
+	font-family: "dqw6";
+	text-align: left;
 	}	
 	.pt2{
 	padding:5px 0 15px 190px;
@@ -257,3 +257,6 @@
 	font-size:12px;
 	text-align:center;
 	font-family:"Microsoft YaHei UI"}
+#more0,#more1{
+	cursor: pointer;
+}
