@@ -12,10 +12,6 @@
 	font-family:dqw3;
 	src: url(../fonts/Hiragino%20Sans%20GB%20W3.otf);
 	}
-@font-face{
-	font-family:dqw6;
-	src: url(../fonts/Hiragino%20Sans%20GB%20W6.otf);
-	}
 *{margin:0 0;
 	font-family: "dqw3","微软雅黑";
 	}
@@ -27,7 +23,7 @@
 	margin: 0 auto;
 	background-image: url(../images/header1.png);
 	color: #FFF;
-	font-family: "dqw6";
+	font-family: "dqw3";
 }
 .bo1{
 	width:1151px;
@@ -78,7 +74,7 @@
 	text-align: center;
 	font-size: 50px;
 	line-height: 50px;
-	font-family: "dqw6";
+	font-family: "dqw3";
 	}
 	.iicon2{
 	width: 400px;
@@ -104,7 +100,7 @@
 	text-align:center;
 	line-height:33px;
 	font-size:18px;
-	font-family:"dqw6";}
+	font-family:"dqw3";}
 											
 
 .mid1{
@@ -120,23 +116,21 @@
 	padding-top: 30px;
 }
 	.line1{
-	height:50px;
-	width:420px;
-	background-image:url(../images/line1.png);
-	background-position:center;
+	height: 40px;
+	width: 420px;
+	background-image: url(../images/line1.png);
+	background-position: center;
 	background-repeat: repeat-x;
-	display:block;
-	float:left;}
+	display: block;
+	float: left;
+}
 	.t1{
-	width:311px;
-	height:50px;
-	text-align:center;
-	font-family: "dqw6";
-	color:#09F;
-	font-size:36px;
-	line-height:45px;
-	display:block;
-	float:left;
+	width: 311px;
+	height: 40px;
+	color: #09F;
+	display: block;
+	float: left;
+	vertical-align: middle;
 	}
 	.t2{
 	font-size: 24px;
@@ -210,7 +204,7 @@
 	display: block;
 	padding: 20px 0 15px 190px;
 	font-size: 18px;
-	font-family: "dqw6";
+	font-family: "dqw3";
 	text-align: left;
 	}	
 	.pt2{
@@ -246,7 +240,7 @@
 .foottip{
 	margin-top:30px;
 	font-size:18px;
-	font-family:"dqw6";}
+	font-family:"dqw3";}
 .foot2{
 	margin-top:8px;
 	font-family:"Microsoft YaHei UI"}
