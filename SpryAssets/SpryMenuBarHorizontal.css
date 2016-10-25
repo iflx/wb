@@ -19,7 +19,7 @@ ul.MenuBarHorizontal
 	font-size: 18px;
 	cursor: default;
 	width: 500px;
-	font-family: "冬青黑体简体中文 W3";
+	font-family: "dqw3";
 }
 /* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
 ul.MenuBarActive
@@ -32,7 +32,7 @@ ul.MenuBarHorizontal li
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 16px;
 	position: relative;
 	text-align: center;
 	cursor: pointer;
@@ -46,7 +46,7 @@ ul.MenuBarHorizontal ul
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 16px;
 	z-index: 1020;
 	cursor: default;
 	width: 100px;
@@ -125,6 +125,7 @@ ul.MenuBarHorizontal a.MenuBarItemSubmenu
 	background-position: 100% 50%;
 	text-align: center;
 	background-color: #FFF;
+	font-size: 18px;
 }
 /* 菜单ul li Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
