@@ -1,5 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+@keyframes xia{
+	0%{top:5px;
+	}
+	25%{
+		top:0px;}
+	50%{top:5px;}
+	70%{top:0px;}
+	100%{top:5px;}}
 @font-face{
 	font-family:dqw3;
 	src: url(../fonts/Hiragino%20Sans%20GB%20W3.otf);
@@ -162,7 +170,7 @@
 	height: 25px;
 	}
 #mdp{
-	background-color:#eee;
+	background-color: #eee;
 }
 .nr {
 	float: right;
@@ -258,5 +266,10 @@
 	text-align:center;
 	font-family:"Microsoft YaHei UI"}
 #more0,#more1{
+	margin-bottom:8px;
 	cursor: pointer;
+	position: relative;
+	animation:xia 3s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease;
 }
