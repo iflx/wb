@@ -98,19 +98,19 @@
 	.iicon3{
 	margin: 46px auto 0;
 	width: 600px;
-	height: 46px;
+	height: 50px;
 	background-color: #FFF;
-	padding-top: 10px;
 	background-image: url(../images/sou.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	box-shadow: 1px 1px 10px  #000000;
 }
 #sou{
-	text-align:center;
-	line-height:33px;
-	font-size:18px;
-	font-family:"dqw3";}
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-family: "dqw3";
+}
 											
 
 .mid1{
