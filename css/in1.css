@@ -100,18 +100,25 @@
 	width: 600px;
 	height: 50px;
 	background-color: #FFF;
-	background-image: url(../images/sou.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	box-shadow: 1px 1px 10px  #000000;
 }
 #sou{
+	color:#FFF;
 	text-align: center;
 	line-height: 50px;
 	font-size: 18px;
 	font-family: "dqw3";
+	width: 90px;
+	background-color: #09F;
+	float: right;
+	display: block;
+	text-decoration:none;
 }
-											
+#sou:hover{
+	color:#FFF;}
+												
 
 .mid1{
 	width: 100%;
