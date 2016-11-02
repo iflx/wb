@@ -46,7 +46,7 @@ a{
 	height:200px;
 	}	
 	.ilogo{
-	width: 367px;
+	width: 380px;
 	height: 86px;
 	float: left;
 	margin-left: 136px;
@@ -310,12 +310,15 @@ a{
 	}
 
 #xzcs{
-	width:100px;
-	height:30px;
-	line-height:30px;
-	float:right;
-	display:block;
-	margin-top:55px;}
+	width: 148px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	display: block;
+	margin-top: 55px;
+	text-align: right;
+	font-family: "Microsoft YaHei UI";
+}
 #xzcs_a{
 	position:absolute;
 	left:0;
