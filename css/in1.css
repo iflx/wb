@@ -15,11 +15,14 @@
 *{margin:0 0;
 	font-family: "dqw3","微软雅黑";
 	}
+a{
+	cursor:pointer;
+	}
 .top{
-	width:100%;
+	width: 100%;
 	background: #EBEBEB;
-	height:100%;
-	overflow:hidden;}
+	height: 100%;
+}
 
 .header{
 	width:1423px;
@@ -30,10 +33,13 @@
 	position: relative;
 }
 .bo1{
-	width:100%;
+	width: 100%;
 	margin: 0 auto;
 	position: absolute;
 	z-index: 5;
+	left: 0px;
+	top: 4px;
+	height: 539px;
 }
 .bo11{
 	width:100%;
@@ -102,7 +108,7 @@
 	background-color: #FFF;
 	background-repeat: no-repeat;
 	background-position: right;
-	box-shadow: 1px 1px 10px  #000000;
+	box-shadow: 0 0 10px #000000;
 }
 #sou{
 	color:#FFF;
@@ -115,9 +121,11 @@
 	float: right;
 	display: block;
 	text-decoration:none;
+	
 }
 #sou:hover{
-	color:#FFF;}
+	color:#FFF;
+	}
 												
 
 .mid1{
@@ -292,9 +300,74 @@
 	height:19px;
 	text-align:center;}
 #headbg{
-	position:absolute;
-	z-index:2;
-	width:100%;
-	height:540px;
-	margin:0 auto;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 540px;
+	margin: 0 auto;
+	top: 0px;
+	left: 0px;
 	}
+
+#xzcs{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	float:right;
+	display:block;
+	margin-top:55px;}
+#xzcs_a{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2000;
+	width:100%;
+	height:430%;
+	background:rgba(0,0,0,0.5);
+	padding-top:200px;
+	display:none;}
+#xzcs_b{
+	width:720px;
+	margin:0 auto;
+	height:450px;
+	background:#FFF;
+	box-shadow:0 0 5px #000000;
+	border-radius:10px;
+	color:#09f;
+	}
+#xzcs_t{
+	display: block;
+	font-size: 24px;
+	width: 200px;
+	height: 45px;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#xzcs_x{
+	margin-right:15px;
+	float:right;
+	display:block;
+	font-size:14px;
+	width:20px;
+	height:24px;
+	text-align:center;
+	padding-top:10px;}
+#xzcs_b hr{
+	width:88%;
+	margin:5px auto;
+	color: #999;}
+.xzcs_c{
+	width:280px;
+	float:left;
+	margin-left:70px;}
+.xzcs_zm{
+	color: #999;
+	font-weight:800;}
+.xzcs_c a{
+	margin-left:15px;
+	color:#000;}
+	.xzcs_c a:hover{
+	color:#09f;}
+.xzcs_c li{
+	margin-top:25px;}
