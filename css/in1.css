@@ -132,6 +132,7 @@ a{
 	width: 100%;
 	margin: 0 auto 15px;
 	text-align: center;
+	min-width: 1151px;
 	}
 
 .title{
@@ -243,11 +244,13 @@ a{
 	padding:40px 0;
 	}
 .fbox{
-	width:1151px;
-	height:200px;
-	margin:0 auto;
-	overflow:hidden;
-	color:#FFF;}
+	width: 1151px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #FFF;
+	background-color: #09F;
+}
 #foot1{
 	width:224px;
 	margin-top:10px;
@@ -323,14 +326,14 @@ a{
 	border-radius:15px;
 }
 #xzcs_a{
-	position:absolute;
+	position: fixed;
 	left:0;
 	top:0;
 	z-index:2000;
 	width:100%;
-	height:430%;
+	height:200%;
 	background:rgba(0,0,0,0.5);
-	padding-top:200px;
+	padding-top:180px;
 	display:none;}
 #xzcs_b{
 	width:720px;
