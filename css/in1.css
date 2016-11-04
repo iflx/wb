@@ -178,11 +178,13 @@ a{
 	float: left;
 	margin-left: 85px;
 	margin-bottom: 50px;
+	cursor:pointer;
 
 	}
 #tc1{
 	margin-left:0;
 	}
+
 
 .tip1{
 	width: 1151px;
@@ -202,6 +204,7 @@ a{
 	width:533px;
 	height:224px;
 	float:left;
+	cursor:pointer;
 }
 .zx {
 	width: 1151px;
