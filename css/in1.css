@@ -324,6 +324,7 @@ a{
 	font-family: "Microsoft YaHei UI";
 	background:rgba(0,0,0,0.3);
 	border-radius:15px;
+	cursor:pointer;
 }
 #xzcs_a{
 	position: fixed;
