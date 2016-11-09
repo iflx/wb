@@ -339,6 +339,7 @@ a{
 	background:rgba(0,0,0,0.5);
 	padding-top:180px;
 	display:none;}
+	
 #xzcs_b{
 	width:720px;
 	margin:0 auto;
@@ -348,6 +349,7 @@ a{
 	border-radius:10px;
 	color:#09f;
 	}
+	
 #xzcs_t{
 	display: block;
 	font-size: 24px;
@@ -357,6 +359,7 @@ a{
 	padding-top: 20px;
 	padding-left: 20px;
 }
+
 #xzcs_x{
 	margin-right:15px;
 	float:right;
@@ -380,13 +383,135 @@ a{
 .xzcs_c a{
 	margin-left:15px;
 	color:#000;}
-	.xzcs_c a:hover{
+.xzcs_c a:hover{
 	color:#09f;}
 .xzcs_c li{
 	margin-top:25px;}
+	
+/*===登录===*/
+
+.wrap{
+	position: fixed;
+	left:0;
+	top:0;
+	z-index:2000;
+	width:100%;
+	height:200%;
+	background:rgba(0,0,0,0.5);
+	
+	display:none;
+	}
+	.wrap_a{
+	background-image: url(../images/logb.png);
+	margin-top:100px;
+	padding-top:20px;
+	width:100%;
+	}	
+	.wrap_a img{
+		float:right;}
+   .tabClick{ 
+	width:620px;
+	margin:50px auto;
+	overflow: hidden;
+	height:55px;
+	}
+.tabClick li{
+	margin-top:3px;
+	color:#09f;
+	width:140px;
+	height:50px;
+	line-height:50px;
+	margin-left:50px;
+	float: left; 
+	text-align: center}
+    .tabClick li.active{
+		border-radius:1px;
+		box-shadow:0 0 3px #333;
+		color: #fff; 
+		transition:0.5s;
+		background:#09f;
+	}
+    .tabCon{ overflow: hidden;
+	height:420px;
+	}
+    .tabBox{ position: relative}
+    .tabList{
+		float:left; 
+		text-align:center; 
+		font-size:16px; 
+		}
+		
+    .lineBorder{
+	overflow: hidden
+}
+    .lineDiv{ background: #099; height:0px; width:10px;}
+	
+	.log_a{
+		height:350px;
+		width:720px;
+		margin:0 auto;
+		padding-top:50px;}
+		.log_a1{
+			margin:0 auto;
+			box-shadow:0 0 3px #333;
+			width:710px;
+			height:46px;
+			background:#09f;}
+			.log_a1 input{
+				height:30px;
+				width:180px;
+				float:left;
+				margin-top:8px;}
+			.log_a1 img{
+				float:left;
+				margin-left:70px;}
+	.log_b{
+		border-top:1px solid #09f;
+		}
+	.log_b1{
+		margin:0 auto;
+		margin-top:5px;
+		width:710px;
+		height:40px;
+		color:#333;
+		font-size:14px;
+		}
+		
+		.log_b11{
+			display:block;
+			float:left;
+			margin-left:100px;}	
+		.log_b1 span{
+			float:left;
+			margin-left:100px;
+			}
+		.log_b1 input{
+			border:1px solid #CCC;}
+		.log_b11 input{
+			margin-left:10px;
+			height:30px;
+			width:180px;
+			}
+		#log_by{
+			font-size:16px;
+			float:right;
+			margin-right:60px;
+			width:200px;
+			background:#09f;
+			height:30px;
+			line-height:30px;
+			color:#FFF;}
+#log_go{
+	margin-left:30px;}
+.log_tips{
+	font-size:14px;
+	float:right;
+	color:#666;
+	margin:5px;}
 
 
 
+/*===最新商品===*/
 .g_box{
 	position:absolute;
 	z-index:4;
