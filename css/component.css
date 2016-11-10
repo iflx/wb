@@ -24,7 +24,6 @@
 .grid figure figcaption {
 	color: #fff;
 	font-size:15px;
-	font-family:"dqw3";
 	
 }
 /*----------------------------------------主标题文本*/
@@ -54,7 +53,7 @@
 }/*？*/
 
 .grid figure p {
-	font-family:"dqw3";
+	font-family:"Microsoft Yahei";
 	font-size: 15px;
 }
 
@@ -104,7 +103,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	font-family:"dqw3";
+	font-family:"Microsoft Yahei";
 	padding-top: 20%;/*h2上边距*/
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;

@@ -8,15 +8,11 @@
 	50%{top:5px;}
 	70%{top:0px;}
 	100%{top:5px;}}
-@font-face{
-	font-family:dqw3;
-	src: url(../fonts/Hiragino%20Sans%20GB%20W3.otf);
-	}
+
 *{margin:0 0;
-	font-family: "dqw3","微软雅黑";
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 	}
-a{
-	cursor:pointer;
+a{	cursor:pointer;
 	}
 .top{
 	width: 100%;
@@ -29,7 +25,6 @@ a{
 	height: 540px;
 	margin: 0 auto;
 	color: #FFF;
-	font-family: "dqw3";
 	position: relative;
 }
 .bo1{
@@ -104,7 +99,7 @@ a{
 	margin: 10px auto 0;
 	text-align: center;
 	height: 19px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 19px;
 	overflow: hidden;
 }
@@ -121,8 +116,7 @@ a{
 	color:#FFF;
 	text-align: center;
 	line-height: 50px;
-	font-size: 18px;
-	font-family: "dqw3";
+	font-size: 16px;
 	width: 90px;
 	background-color: #09F;
 	float: right;
@@ -167,7 +161,7 @@ a{
 	}
 	.t2{
 	font-size: 24px;
-	color: #666;
+	color: #999;
 	text-align: center;
 }
 .goods1{
@@ -204,8 +198,9 @@ a{
 }
 .nr {
 	float: right;
-	color: #666;
-	font-size: 14px;
+	color: #999;
+	font-size: 16px;
+	cursor:pointer;
 }
 .zero {
 	width:533px;
@@ -240,13 +235,13 @@ a{
 	display: block;
 	padding: 20px 0 15px 190px;
 	font-size: 18px;
-	font-family: "dqw3";
 	text-align: left;
 	}	
 	.pt2{
 	padding:5px 0 15px 190px;
 	font-size:16px;
 	text-indent:2em;
+	font-family: Verdana, Geneva, sans-serif;
 	}	
 #foot{
 	background-color: #09F;
@@ -278,10 +273,11 @@ a{
 .foottip{
 	margin-top:30px;
 	font-size:18px;
-	font-family:"dqw3";}
+}
 .foot2{
 	margin-top:8px;
-	font-family:"Microsoft YaHei UI"}
+	font-family:Verdana, Geneva, sans-serif;
+	}
 .fbox3{
 	width: 270px;
 	height: 150px;
@@ -292,12 +288,13 @@ a{
 	margin-left:8px;
 	margin-top:10px;}	
 .fbox4{
+	font-family:Verdana, Geneva, sans-serif;
 	float:left;
 	width:1151px;
 	margin:20px; auto;
 	font-size:12px;
 	text-align:center;
-	font-family:"Microsoft YaHei UI"}
+	}
 #more0,#more1{
 	margin-bottom:8px;
 	cursor: pointer;
@@ -330,8 +327,7 @@ a{
 	display: block;
 	margin-top: 55px;
 	text-align: center;
-	font-size:12px;
-	font-family: "Microsoft YaHei UI";
+	font-size:14px;
 	background:rgba(0,0,0,0.3);
 	border-radius:15px;
 	cursor:pointer;
