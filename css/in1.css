@@ -69,18 +69,25 @@ a{
 	align: baseline;
 }	
 .inav{
-	width: 300px;
+	width: 260px;
 	float: right;
-	margin-top: 65px;
-	text-align: right;
+	margin-top:50px;
 	margin-right: 136px;
 	}
 
 	.ishop{
-	width: 75px;
+		cursor:pointer;
+		float: left;
+		display:block;
+	width:110px;
+	height:30px;
+	line-height:30px;
 	font-size: 18px;
-	margin-left: 30px;
+	/*background:rgba(0,0,0,0.3);*/
+	border-radius:15px;
 }	
+	.ishop img{
+		float:left;}
 .bo12{
 	height:186px;}
 .iicon{
@@ -416,12 +423,14 @@ a{
 	height:55px;
 	}
 .tabClick li{
+	cursor:pointer;
+	font-size:24px;
 	margin-top:3px;
 	color:#09f;
-	width:140px;
+	width:150px;
 	height:50px;
 	line-height:50px;
-	margin-left:50px;
+	margin-left:100px;
 	float: left; 
 	text-align: center}
     .tabClick li.active{
@@ -450,7 +459,7 @@ a{
 		height:350px;
 		width:720px;
 		margin:0 auto;
-		padding-top:50px;}
+		padding-top:40px;}
 		.log_a1{
 			margin:0 auto;
 			box-shadow:0 0 3px #333;
@@ -508,6 +517,8 @@ a{
 	float:right;
 	color:#666;
 	margin:5px;}
+	#RadioGroup1_0,#RadioGroup1_1{
+		margin-top:10px;}
 
 
 
@@ -522,7 +533,6 @@ a{
 	background:rgba(102,102,102,0.7);
 	display: inline-block;
 	transition:all 0.4s;
-	
 	}		
 .tc:hover .g_box,.zero:hover .g_box{
 	transform:scale(1.25,1.25);
