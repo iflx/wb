@@ -8,10 +8,10 @@
 	50%{top:5px;}
 	70%{top:0px;}
 	100%{top:5px;}}
-@font-face{
+/*@font-face{
 	font-family:dqw3;
 	src: url(../fonts/Hiragino%20Sans%20GB%20W3.otf);
-	}
+	}字体*/
 *{margin:0 0;
 	font-family: "dqw3","微软雅黑";
 	}
