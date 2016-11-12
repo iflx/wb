@@ -406,6 +406,7 @@ a{	cursor:pointer;
 /*===登录===*/
 
 .wrap{
+	background-color:#FFC;
 	position: fixed;
 	left:0;
 	top:0;
