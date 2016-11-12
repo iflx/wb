@@ -1,7 +1,7 @@
 // JavaScript Document
-window.onload = function (){
+function rz(id){
         var windowWidth = document.body.clientWidth; //window 宽度;
-		var wrap = document.getElementById('wrap');
+		var wrap = document.getElementById(id);
         var tabClick = wrap.querySelectorAll('.tabClick')[0];
         var tabLi = tabClick.getElementsByTagName('li');
         

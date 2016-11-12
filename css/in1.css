@@ -401,7 +401,6 @@ a{	cursor:pointer;
 	width:100%;
 	height:200%;
 	background:rgba(0,0,0,0.5);
-	
 	display:none;
 	}
 	.wrap_a{
@@ -438,12 +437,13 @@ a{	cursor:pointer;
 	}
     .tabCon{ overflow: hidden;
 	height:420px;
+	min-width:1423px;
 	}
     .tabBox{ position: relative}
     .tabList{
 		float:left; 
 		text-align:center; 
-		font-size:16px; 
+		font-size:16px;
 		}
 		
     .lineBorder{
@@ -483,12 +483,11 @@ a{	cursor:pointer;
 		}
 		
 		.log_b11{
-			display:block;
-			float:left;
-			margin-left:100px;}	
+	display: block;
+}	
 		.log_b1 span{
-			float:left;
-			margin-left:100px;
+	float: left;
+	margin-left: 100px;
 			}
 		.log_b1 input{
 			border:1px solid #CCC;}
@@ -516,7 +515,58 @@ a{	cursor:pointer;
 	#RadioGroup1_0,#RadioGroup1_1{
 		margin-top:10px;}
 
+#tabClick_b{
+	width:960px;
+	height:80px;
+	margin:50px auto 20px;
+	overflow: hidden;
+	border-bottom:1px solid #09f;
+	}
 
+#tabClick_b li{
+	font-size: 16px;
+	margin-top: 51px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	}
+
+#sj_in{
+	margin-top:15px;
+	width:640px;
+	height:60px;
+	float:left;
+	}
+	#sj_in img{
+		float:left;}
+#sj_in span{
+	color: #333;
+	width:150px;
+	float:left;
+	font-size:20px;
+	margin:25px auto auto 10px;
+	
+	}	
+.log_c{
+		height:350px;
+		width:720px;
+		margin:0 auto;
+		padding-top:15px;
+	}
+	.log_b12 input{
+		width:440px;}
+.yewu label{
+	float:left;
+	margin-left:15px;}
+
+.upload input{
+	width:150px;
+	height:30px;
+    cursor: pointer;
+	background: #CCC;
+	border-radius:5px;
+	}
 
 /*===最新商品===*/
 .g_box{
