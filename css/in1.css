@@ -112,6 +112,18 @@ a{	cursor:pointer;
 	background-position: right;
 	box-shadow: 0 0 10px #000000;
 }
+#test{ 
+	margin:0 auto;
+	height:224px;
+	width:1151px;
+	display:none;
+	overflow:hidden; }
+#test2{ 
+	margin:0 auto;
+	width:1151px;
+	display:none;
+	overflow:hidden; }
+
 #sou{
 	color:#FFF;
 	text-align: center;
