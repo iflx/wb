@@ -14,6 +14,8 @@
 	}
 a{	cursor:pointer;
 	}
+ul{
+	list-style:none;}
 .top{
 	width: 100%;
 	background: #EBEBEB;
@@ -103,6 +105,7 @@ a{	cursor:pointer;
 	line-height: 19px;
 	overflow: hidden;
 }
+/*=====选择菜单=====*/
 	.iicon3{
 	margin: 46px auto 0;
 	width: 600px;
@@ -112,6 +115,28 @@ a{	cursor:pointer;
 	background-position: right;
 	box-shadow: 0 0 10px #000000;
 }
+		.iicon3 select{
+			text-align: center;
+			float:left;
+			   width                    : 100px;
+               height                   : 50px;
+               border                   : 1px solid #e9e9e9;
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;
+               font-size                :16px;
+               cursor                   : pointer;
+			   }
+			.iicon3 option{
+				
+				padding:5px;
+				font-size:14px;
+				border-bottom:1px solid #e9e9e9;}
+				.select-one{
+					display:none;}
+			.iicon3 select:hover{
+					color:#09f;}  		
+
 #test{ 
 	margin:0 auto;
 	height:224px;
@@ -129,7 +154,7 @@ a{	cursor:pointer;
 	text-align: center;
 	line-height: 50px;
 	font-size: 16px;
-	width: 90px;
+	width: 100px;
 	background-color: #09F;
 	float: right;
 	display: block;
@@ -406,7 +431,6 @@ a{	cursor:pointer;
 /*===登录===*/
 
 .wrap{
-	background-color:#FFC;
 	position: fixed;
 	left:0;
 	top:0;
@@ -479,7 +503,7 @@ a{	cursor:pointer;
 				height:30px;
 				width:180px;
 				float:left;
-				margin-top:8px;}
+				margin-top:5px;}
 			.log_a1 img{
 				float:left;
 				margin-left:70px;}
