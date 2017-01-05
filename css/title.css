@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title{
+	margin: 0 auto;
+	width: 1151px;
+	height: 80px;
+	padding-top: 30px;
+}
+	.line1{
+	height: 40px;
+	width: 420px;
+	background-image: url(../images/line1.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	display: block;
+	float: left;
+}
+	.t1{
+	width: 311px;
+	height: 40px;
+	color: #09F;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	}
+	.t2{
+	font-size: 24px;
+	color: #999;
+	text-align: center;
+}
+
+
+/*===更多===*/
+.nr {
+	float: right;
+	color: #999;
+	font-size: 16px;
+	cursor:pointer;
+}

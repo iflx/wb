@@ -1,0 +1,59 @@
+@charset "utf-8";
+.mid_d{
+		width: 270px;
+		float: right;
+		margin: 10px;
+		border: 1px solid #CCC;
+		box-shadow: 0 0 5px #999999;
+		}
+		.mid_d span{
+				display:block;
+				margin:15px;}
+		.mid_d ol{
+			margin-bottom:50px;}
+		.mid_d li{
+	text-align: left;
+	margin-top: 15px;
+	width: 200px;
+	border-bottom: 1px dashed #999;
+}
+		.mid_d textarea{
+			margin-left:30px;
+			width:200px;
+			border:1px solid #CCC;}
+		.mid_d b{
+			margin-left:20px;
+			font-size:24px;}
+		.mid_d1{
+			height:40px;
+			line-height:40px;
+			background:#09f;
+			color:#FFF;
+			font-size: 18px;
+			padding-left:10px;}
+		.mid_d2{
+			float:left;
+			margin:10px 0 25px 25px;
+			width:100px;
+			height:35px;
+			line-height:35px;
+			background:#09f;
+			color:#FFF;
+			font-size:16px;
+			text-align:center;
+			}
+
+
+
+/*===购买数量===*/       
+#buy{
+	display:inline-block;
+	width:110px;
+	margin-top:5px;
+	margin-left:5px;}
+.buy1{
+	width:30px;
+	text-align:center;}
+.buy0{
+	width:30px;
+	}

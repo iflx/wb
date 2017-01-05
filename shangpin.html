@@ -2,77 +2,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>万博众和</title>
-<link rel="stylesheet" type="text/css" href="css/jquery.jslides.css" media="screen" />
+<title>万博众和-商品详情</title>
+<link rel="stylesheet" href="css/public.css" type="text/css">
+<link rel="stylesheet" href="css/goods.css" type="text/css">
+<link rel="stylesheet" href="css/buy.css" type="text/css">
+<link rel="stylesheet" href="css/wareslist.css" type="text/css">
+<link rel="stylesheet" href="css/title.css" type="text/css">
+<link rel="stylesheet" href="css/jquery.jslides.css" type="text/css"  media="screen" /><!--top背景图-->
 <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script><!--top背景图-->
 <script type="text/javascript" src="js/jquery.jslides.js"></script><!--top背景图-->
+<script src="js/buy.js" type="text/javascript"></script>
 <script src="js/open.js" type="text/javascript"></script><!--展开显示-->
-<link rel="stylesheet" href="css/public.css" type="text/css">
-<link rel="stylesheet" href="css/title.css" type="text/css">
-<link rel="stylesheet" href="css/wareslist.css" type="text/css">
-<link rel="stylesheet" href="css/in1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/component.css" /><!--商品黑框-->
 <script src="js/log.js" type="text/javascript"></script><!--登录-->
 </head>
 
 <body>
-<div class="top">
-<div class="header">
-  <div class="bo1">
     <div class="bo11">
       <div class="ilogo">
         <a class="logo"><img src="images/logo.png" width="224" height="55" /></a>
-        <div id="xzcs" onclick="tc('xzcs_a')">北京-切换</div>
-        <div id="xzcs_a">
-        <div id="xzcs_b"><span id="xzcs_x" ><a onclick="xc('xzcs_a')"><img src="images/close.png" width="15" height="15" /></a></span><span id="xzcs_t"><img src="images/dw.png"  />&nbsp;切换城市</span>
-          <hr />
-        
-        <div class="xzcs_c">
-        <ul>
-        <li>
-        <span class="xzcs_zm">B</span>
-        <a>北京</a>
-        </li>
-        <li>
-        <span class="xzcs_zm">C</span>
-        <a>成都</a><a>重庆</a><a>长沙</a>
-        </li>
-        <li>
-        <span class="xzcs_zm">D</span>
-        <a>大连</a><a>东莞</a>
-        </li>
-        <li>
-        <span class="xzcs_zm">F</span>
-        <a>佛山</a>
-        </li>
-        <li>
-        <span class="xzcs_zm">G</span>
-        <a>广州</a>
-        </li>
-        <li>
-        <span class="xzcs_zm">H</span>
-        <a>杭州</a><a>海口</a><a>合肥</a>
-        </li>
-        </ul>
-        </div>
-        <div class="xzcs_c">
-        <ul>
-        <li>
-        <span class="xzcs_zm">J</span>
-        <a>济南</a><a>嘉兴</a>
-        </li>
-        <li>
-     
-        </ul>
-        </div>
-</div>
-        </div>
-        
-    
-
-      </div><!--ilogo结束-->
+        <div class="fb">商品详情</div>
+        </div><!--ilogo结束-->
       
-      <div class="inav"><span class="ishop" onclick="tc('wrap1'); rz('wrap1')"><img src="images/log_a1.png" width="30" height="30" />登录</span><span class="ishop" onclick="tc('wrap2'); rz('wrap2')"><img src="images/log_z.png" width="30" height="30" />商家入驻</span></div>
+      <div class="inav"><span class="ishop" onclick="tc('wrap1'); rz('wrap1')">登录</span><span class="ishop" onclick="tc('wrap2'); rz('wrap2')">商家入驻</span></div>
   <!--登录start-->    
   <div class="wrap" id="wrap1">
   <div class="wrap_a"><a onclick="xc('wrap1')"><img src="images/close.png" width="15" height="15"></a>
@@ -183,204 +134,102 @@
 </div>
 <!--入驻end-->
     </div>
-    <div class="bo12">
-     <div class="iicon"><img src="images/h1.png" width="301" height="48" alt="精选广告资源" /></div> <div class="iicon2"><marquee id="gundong" direction=up behavior=scroll scrollamount=2 onmouseover=this.stop()  onmouseout=this.start()>北京在售广告位5321个<br /><br />北京交易量3025次<br /></marquee></div>
-      <div class="iicon3">
-    <select>
-<option class="select-one"  selected="selected">附近</option> 
-<option>CBD</option>     
-<option>交通要道</option>      
-<option>银行</option>      
-<option>医院</option>
-<option>学校</option>
-    </select>
-      <select>
-<option class="select-one"  selected="selected">行业</option> 
-<option>房产</option>     
-<option>金融</option>      
-<option>汽车</option>      
-<option>餐饮</option>
-<option>数码</option>
-<option>娱乐</option>
-    </select>
-      <select>
-<option class="select-one"  selected="selected">预算</option> 
-<option>1万以下</option>     
-<option>5万以下</option>      
-<option>10万以下</option>      
-<option>30万以下</option>
-<option>50万以下</option>
-    </select>
-      <select>
-<option class="select-one"  selected="selected">周期</option> 
-<option>1个月</option>     
-<option>3个月</option>      
-<option>6个月</option>      
 
-    </select>
-      <select>
-<option class="select-one"  selected="selected">类型</option> 
-<option>户外广告</option>     
-    </select>
-        
-           
-      <a  href="#tj" id="sou">搜 &nbsp;索</a> </div>      
-    </div>
-  </div><!--bo1结束-->
-  
- <div id="headbg"> <div id="full-screen-slider">
-	<ul id="slides">
+<div class="banner_g">
+	<div id="full-screen-slider">
+		<ul id="slides">
 		<li style="background:url('images/01.jpg') no-repeat center top"></li>
         <li style="background:url('images/03.jpg') no-repeat center top"></li>
 		<li style="background:url('images/02.jpg') no-repeat center top"></li>
-	</ul>
-</div>
-</div><!--headbg结束-->
-</div></div><!--top结束-->
-<div class="mid1">
-  <a name="tj" id="tj"></a><div class="title" ><span class="line1"></span><span class="t1"><img   src="images/h2.png"  width="143" height="34" alt="精准套餐" /></span><span class="line1"></span><p class="t2">快速匹配到符合您需求的广告位套餐  </p>
-  </div><div class="goods1">
-<div class="tc" id="tc1"> <div class="grid">
-       
+		</ul>
+	</div>
+</div> <!--banner_g结束-->
 
-        <figure class="effect-bubba">
-            <img src="images/tc-01.png" />
-          <figcaption>
-                <h2>行业选择最多<span><br />★★★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥5000起
-         <a href="taocan.html" target="_blank"></a>
-            </figcaption>			
-        </figure>
+<div class="mid-one">
+<div class="mid_d">
+	<div class="mid_d1">套餐详情</div>
+	<span>商品：</span>
+	<ol><li>美术馆路43号</li>
+	<li>东四南大街72号</li>
+	</ol>
+	<span>周期：<form id="buy">  
+		<input class="buy0" type="button"  value="-" onclick="sub()">  
+		<input type="text" name="ans" value="1" class="buy1">  
+		<input class="buy0" type="button"  value="+" onclick="add()">
+	</form>（月）</span>
+	<span>发票：
+	<input name="" type="checkbox" value="" />
+	需要</span>
+	<span>备注：</span>
+	<textarea name="" style="resize: none;height:60px;" ></textarea>
+    <span>总价：<b>￥3000元</b></span>
+    <div class="mid_d2" id="mid_shoucang">收藏</div>
+    <div class="mid_d2" id="mid_gouwu">加入购物车</div>
+</div><!--mid_d结束-->
 
- 
+<div class="mid-lbox">
+	<div class="mid-a">美术馆路立柱广告</div>
+	<div class="mid-b">
+		<div class="mid-b1">出售期限：<span>09月10日2016年——10月10日2016年</span></div>
+		<div class="mid-b2">标签：<span>医院</span><span>学校</span></div>
+	</div>
 
-</div></div> 
-  <div class="tc" id="tc2"> <div class="grid">
-       
+	<div class="mid-c">单价：<span>3000元</span></div>
+	<div class="mid-c">周期：<span>1个月</span></div>
+	<div class="mid-c">类型：<span>立柱广告</span></div>
 
-        <figure class="effect-bubba">
-            <img src="images/tc-02.png" />
-          <figcaption>
-                 <h2>周边最多<span><br />★★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥10,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
+	<div class="mid-c">面积：<span>4.5m²</span></div>
+	<div class="mid-c">尺寸：<span>长3m,高1.5m</span></div>
+	<div class="mid-c">离地高度：<span>3m<span></div>
 
- 
+	<div class="mid-c">朝向：<span>东、西北<span></div>
+	<div class="mid-c">制作：<span>不含<span></div>
+	<div class="mid-c">安装：<span>不含</span></div>
+    
+    <div class="mid-c">推广效果：<span>产品宣传</span></div>
+    <div class="mid-c mid-c1">地理位置：<span>北京市东城区美术馆路72号<a>（地图上查看）</a></span></div>
+    <div class="mid-c2"><span class="mid-c21">简介：</span><span class="mid-c22">在公共场所树立巨型广告牌这一古老方式历经千年的实践，表明其在传递信息、扩大影响方面的有效性。一块设立在黄金地段的巨型广告牌是任何想建立持久品牌形象的公司的必争之物，它的直接、简捷，足以迷倒全世界的大广告商。
+</span></div>
 
-</div></div>
-  <div class="tc" id="tc3"> <div class="grid">
-       
+	<div class="mid-d">
+		<div class="mid-d0">实景图：</div>
+		<div class="mid-d1" id="mid-d01" onclick="tc('mid-e1')"><span>远景图</span></div>
+		<div class="mid-d1" id="mid-d02" onclick="tc('mid-e2')"><span>近景图</span></div>
+		<div class="mid-d1" id="mid-d03" onclick="tc('mid-e3')"><span>规格图</span></div>
 
-        <figure class="effect-bubba">
-            <img src="images/tc-03.png" />
-          <figcaption>
-                <h2>最合预算<span><br />★★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥15,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
+		<div class="mid-d2" id="mid-e1" onclick="xc('mid-e1')" >
+		<div class="mid-e" ><img src="images/mid-d01d.jpg" width="1151" height="650" /></div>
+		</div>
 
- 
+		<div class="mid-d2" id="mid-e2" onclick="xc('mid-e2')" >
+		<div class="mid-e" ><img  src="images/mid-d02d.jpg" width="1151" height="650" /></div>
+		</div>
 
-</div></div> 
-  <div class="tc" id="tc4"> <div class="grid">
-       
-
-        <figure class="effect-bubba">
-            <img src="images/tc-04.png" />
-          <figcaption>
-           <h2>周期最长<span><br />★★★★</span></h2>
-                  <p>中国银行<br/>建设银行<br/></p>￥20,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
-
- 
-
-</div></div>
-  </div> 
-  <div class="test" id="test">
-  <div class="tc" id="tc1"> <div class="grid">
-       
-
-        <figure class="effect-bubba">
-            <img src="images/tc-01.png" />
-          <figcaption>
-                <h2>推荐指数<span><br />★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥30,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
-
- 
-
-</div></div> 
-  <div class="tc" id="tc2"> <div class="grid">
-       
-
-        <figure class="effect-bubba">
-            <img src="images/tc-02.png" />
-          <figcaption>
-                <h2>周边最多<span><br />★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥40,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
-
- 
-
-</div></div>
-  <div class="tc" id="tc3"> <div class="grid">
-       
-
-        <figure class="effect-bubba">
-            <img src="images/tc-03.png" />
-          <figcaption>
-             <h2>最合预算<span><br />★★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥50,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
-
- 
-
-</div></div> 
-  <div class="tc" id="tc4"> <div class="grid">
-       
-
-        <figure class="effect-bubba">
-            <img src="images/tc-04.png" />
-          <figcaption>
-           <h2>周期最长<span><br />★★</span></h2>
-                  <p>中国银行<br/>建设银行</p>￥60,000起
-         <a href="#" target="_blank"></a>
-            </figcaption>			
-        </figure>
-
- 
-
-</div></div></div>
-  <a  onClick="Effect('test',this.parentNode.id,'more0');" ><img id="more0" src="images/down.png" /></a> 
-</div>
-<div class="mid1" id="mdp">
- <div class="title"><span class="line1"></span><span class="t1"><img src="images/h3.png" width="143" height="34" alt="最新单品" /></span><span class="line1"></span>
-   <p class="t2">精挑细选热销广告单品</p>
+		<div class="mid-d2" id="mid-e3" onclick="xc('mid-e3')" >
+		<div class="mid-e" ><img src="images/mid-d03d.jpg" width="1151" height="650" /></div>
+		</div>
+	</div><!--mid-d结束-->  
+    <div class="mid-g">以套餐形式购买获得更多优惠：<span><a href="taocan.html">点击查看</a></span></div>  
+	</div><!--mid-lbox结束-->
+  <div class="mid-h">
+    <div class="mid-h0">公司：<span>极光广告有限公司</span></div>
+    <div class="mid-h0">信誉等级：<span id="mid-hxing"><img src="images/xing5.png" width="156" height="30" /></span></div>
+    <div class="mid-h0">电话：<span>18238808888</span></div>
+    <div class="mid-h0">QQ：<span>294089350</span></div>
+    <div class="mid-h0">地址：<span>北京市东城区金宝街</span></div>
   </div>
-  <div class="tip1"><img src="images/huwai1.png" width="236" height="25" /><div class="nr">更多<img src="images/down1.png" width="15" height="15" /></div></div>
+	<div class="mid-f"><div class="mid-f0">地图查看：</div>
+    <div class="mid-f1"></div>
 
-  <div class="goods1">
-<div class="zero"><div class="g_box" id="zero_t">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc7.png" width="533" height="224" /></div>
-  <div class="tc" id="tc2"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc1.png" width="224" height="224" /></div>
-  <div class="tc" id="tc3"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc2.png" width="224" height="224" /></div>
-  <div class="tc" id="tc1">
+	</div>
+</div><!--mid-one结束-->
+
+
+<div class="mid_two">
+<div class="mid_f"> <span class="mid_f1">广告位推荐/</span><span class="mid_f2">浏览该套餐的用户，也浏览了以下广告位</span><div class="nr">更多<img src="images/down1.png" width="15" height="15" /></div></div>
+<div class="mid_g">
+
+ <div class="tc" id="tc1">
   <div class="g_box">
 <div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
 </div>
@@ -394,57 +243,19 @@
   <div class="tc" id="tc4"><div class="g_box">
 <div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
 </div><img src="images/tc6.png" width="224" height="224" /></div>  
-  <div class="test2" id="test2">
+ 
+ </div><!--mid_g结束-->
 
-  <div class="tc" id="tc1"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc3.png" width="224" height="224" /></div> 
-  <div class="tc" id="tc2"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc1.png" width="224" height="224" /></div>
-  <div class="tc" id="tc3"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc2.png" width="224" height="224" /></div>
-   <div class="tc" id="tc4"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc6.png" width="224" height="224" /></div>
-  <div class="tc" id="tc1"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc3.png" width="224" height="224" /></div> 
-  <div class="tc" id="tc2"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc4.png" width="224" height="224" /></div>
-  <div class="tc" id="tc3"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc5.png" width="224" height="224" /></div> 
-  <div class="tc" id="tc4"><div class="g_box">
-<div class="g_box_a">光明路<br />户外大牌<br />3000元</div>
-</div><img src="images/tc6.png" width="224" height="224" /></div>
+</div><!--mid_two结束-->
+<div class="mid_three">
+
+ <div class="title"><span class="line1"></span><span class="t1"><img src="images/h5.png" width="143" height="34" alt="资讯中心" /></span><span class="line1"></span>
+  </div><!--title结束-->
+<div class="mid_h" id="mid_h0"><span>套餐推荐说明</span></div>  <div class="mid_h"
+id="mid_h1"><span>往期案例</span></div>
+<div class="mid_h" id="mid_h2"><span>周边服务</span></div>
+  </div><!--mid_three结束-->
   
- 
-</div>  <a  onClick="Effect('test2',this.parentNode.id,'more1');" ><img id="more1" src="images/down.png" /></a>  
-</div>  
-</div>
-<div class="mid1">
-
- <div class="title"><span class="line1"></span><span class="t1"><img src="images/h4.png" width="143" height="34" alt="资讯中心" /></span><span class="line1"></span>
-   <p class="t2">第一时间掌握最新广告资讯</p>
-  </div>
-    <div class="tip1"><div class="nr">更多<img src="images/down1.png" width="15" height="15" /></div></div>
-    
- <div class="zx">
-   <div class="zx1"><img src="images/index_20.png" width="370" height="320" /></div>
-   <div class="zx2">
-     <p><img class="zx3" src="images/index_24.png" width="175" height="125" /><p class="pt1">热点丨什么方法让商品迅速火遍全城</p>
-     <p class="pt2">在海淀区和昌平区，使两个区域紧密的联系在一起，园区、企业、人才等产业资源共享，成为昌平区最主要的核心竞争力，使昌平区在……</p>
-   </div>
- 
-    <div class="zx2" id="zx_2">  
-     <p><img class="zx3" src="images/index_22.png" width="175" height="125" />
-     <p class="pt1">热点丨广告套餐最优搭配原则</p>
-     <p class="pt2">在海淀区和昌平区，使两个区域紧密的联系在一起，园区、企业、人才等产业资源共享，成为昌平区最主要的核心竞争力，使昌平区在……</p></div>
- </div>
-</div>
 <div  class="mid1" id="foot">
 <div class="fbox">
    <div class="fbox1">  <div id="foot1"><img src="images/index_27.png" width="224" height="62" /></div><div id="foot1"><img src="images/index_34.png" width="224" height="61" /></div>

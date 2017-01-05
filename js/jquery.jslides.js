@@ -1,14 +1,4 @@
-﻿/**
- * jQuery jslides 1.1.0
- *
- * http://www.cactussoft.cn
- *
- * Copyright (c) 2009 - 2013 Jerry
- *
- * Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
- */
+﻿
 $(function(){
 	var numpic = $('#slides li').size()-1;
 	var nownow = 0;

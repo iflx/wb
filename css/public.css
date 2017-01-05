@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 0;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+	}
+
+
+ul{
+	list-style:none;}
+.bo11{
+	width:100%;
+	height:100px;
+	}	
+	.ilogo{
+	width: 330px;
+	height: 86px;
+	float: left;
+	margin-left: 136px;
+}	
+		.logo{
+		float:left;
+		width:225px;
+		height:56px;
+		margin-top:30px;
+		}
+	.fb{
+		float:right;
+		width:100px;
+		margin-top:54px;
+		font-size:24px;}
+	.inav{
+	width: 260px;
+	float: right;
+	margin-top:50px;
+	margin-right: 136px;
+	}
+
+	.ishop{
+		cursor:pointer;
+		float: left;
+		display:block;
+	width:110px;
+	height:30px;
+	line-height:30px;
+	font-size: 18px;
+	/*background:rgba(0,0,0,0.3);*/
+	border-radius:15px;
+}	
+	.ishop img{
+		float:left;}
+		
+/*===登录===*/
+
+.wrap{
+	position: fixed;
+	left:0;
+	top:0;
+	z-index:2000;
+	width:100%;
+	height:200%;
+	background:rgba(0,0,0,0.5);
+	display:none;
+	}
+	.wrap_a{
+	background-image: url(../images/logb.png);
+	margin-top:100px;
+	padding-top:20px;
+	width:100%;
+	}	
+	.wrap_a img{
+		float:right;}
+   .tabClick{ 
+	width:620px;
+	margin:50px auto;
+	overflow: hidden;
+	height:55px;
+	}
+.tabClick li{
+	cursor:pointer;
+	font-size:24px;
+	margin-top:3px;
+	color:#09f;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	margin-left:100px;
+	float: left; 
+	text-align: center}
+    .tabClick li.active{
+		border-radius:1px;
+		box-shadow:0 0 3px #333;
+		color: #fff; 
+		transition:0.5s;
+		background:#09f;
+	}
+    .tabCon{ overflow: hidden;
+	height:420px;
+	min-width:1423px;
+	}
+    .tabBox{ position: relative}
+    .tabList{
+		float:left; 
+		text-align:center; 
+		font-size:16px;
+		}
+		
+    .lineBorder{
+	overflow: hidden
+}
+    .lineDiv{ background: #099; height:0px; width:10px;}
+	
+	.log_a{
+		height:350px;
+		width:720px;
+		margin:0 auto;
+		padding-top:40px;}
+		.log_a1{
+			margin:0 auto;
+			box-shadow:0 0 3px #333;
+			width:710px;
+			height:46px;
+			background:#09f;}
+			.log_a1 input{
+				height:30px;
+				width:180px;
+				float:left;
+				margin-top:5px;}
+			.log_a1 img{
+				float:left;
+				margin-left:70px;}
+	.log_b{
+		border-top:1px solid #09f;
+		}
+	.log_b1{
+		margin:0 auto;
+		margin-top:5px;
+		width:710px;
+		height:40px;
+		color:#333;
+		font-size:14px;
+		}
+		
+		.log_b11{
+	display: block;
+}	
+		.log_b1 span{
+	float: left;
+	margin-left: 100px;
+			}
+		.log_b1 input{
+			border:1px solid #CCC;}
+		.log_b11 input{
+			margin-left:10px;
+			height:30px;
+			width:180px;
+			}
+		#log_by{
+			font-size:16px;
+			float:right;
+			margin-right:60px;
+			width:200px;
+			background:#09f;
+			height:30px;
+			line-height:30px;
+			color:#FFF;}
+#log_go{
+	margin-left:30px;}
+.log_tips{
+	font-size:14px;
+	float:right;
+	color:#666;
+	margin:5px;}
+	#RadioGroup1_0,#RadioGroup1_1{
+		margin-top:10px;}
+
+#tabClick_b{
+	width:960px;
+	height:80px;
+	margin:50px auto 20px;
+	overflow: hidden;
+	border-bottom:1px solid #09f;
+	}
+
+#tabClick_b li{
+	font-size: 16px;
+	margin-top: 51px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	}
+
+#sj_in{
+	margin-top:15px;
+	width:640px;
+	height:60px;
+	float:left;
+	}
+	#sj_in img{
+		float:left;}
+#sj_in span{
+	color: #333;
+	width:150px;
+	float:left;
+	font-size:20px;
+	margin:25px auto auto 10px;
+	
+	}	
+.log_c{
+		height:350px;
+		width:720px;
+		margin:0 auto;
+		padding-top:15px;
+	}
+	.log_b12 input{
+		width:440px;}
+.yewu label{
+	float:left;
+	margin-left:15px;}
+
+.upload input{
+	width:150px;
+	height:30px;
+    cursor: pointer;
+	background: #CCC;
+	border-radius:5px;
+	}
+/*===登录结束===*/
+
+
+/*===页脚开始===*/
+#foot{
+	background-color: #09F;
+	margin-bottom: 0;
+	padding: 30px 0;
+	}
+.fbox{
+	width: 1151px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #FFF;
+	background-color: #09F;
+}
+#foot1{
+	width:224px;
+	margin-top:10px;
+	}
+.fbox1{
+	width:224px;
+	height:150px;
+	float:left;}
+.fbox2{
+	width:180px;
+	height:150px;
+	float:left;
+	margin-left:20px;
+	text-align:center;}
+.foottip{
+	margin-top: 20px;
+	font-size: 18px;
+}
+.foot2{
+	margin-top:8px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+.fbox3{
+	width: 270px;
+	height: 150px;
+	float: left;
+	margin-left: 57px;
+}
+.foot3{
+	margin-left:8px;
+	margin-top:10px;}	
+.fbox4{
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+	width:1151px;
+	margin:20px; auto;
+	font-size:12px;
+	text-align:center;
+	}
+/*===页脚结束===*/
