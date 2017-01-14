@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.banner_g{
+	height:350px;
+	width:100%;
+	overflow:hidden;}
+.mid-a{
+	width: 1151px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+	.mid-b{
+		
+		background:#09f;
+		height:30px;
+		color:#FFF;
+		line-height:30px;
+		font-size:18px;
+		padding-left:20px;}
+
+	.mid-c{
+	background: #CCC;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #333;
+		}
+		.mid-c span{
+			display:block;
+			float:left;
+			text-align:center;
+			}
+		.mid-c1{
+			width:100px;
+			}
+		.mid-c2{
+			width:300px;}
+		.mid-c3{
+			width:150px;}
+		.mid-c4{
+			width:150px;}
+		.mid-c5{
+			width:150px;}
+		.mid-c6{
+			width:149px;}
+		.mid-c7{
+			width:149px;}
+	.mid-d{
+	padding: 25px 0;
+	overflow: hidden;
+	border-top: 1px solid #333;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+		}	
+		.mid-d span{
+		display:block;
+		float:left;
+		text-align:center;
+		}
+	.mid-e{
+		border-top:1px solid #333;
+		background:#CCC;
+		overflow:hidden;
+		}
+		.mid-e span{
+			padding:5px 0;
+			display:block;
+			margin-left:30px;
+			
+			}
+			.mid-e1{
+				float:left;
+				color:#333;
+			font-size:14px;}
+			.mid-e2{
+				float:left;
+				color:#333;
+			font-size:14px;}
+			.mid-e3{
+				float:right;
+				color:#09f;
+				}
+			.mid-e4{
+				background:#09f;
+				width:150px;
+				float:right;
+				text-align:center;
+				color:#FFF;
+				}
+		
+		
+		
